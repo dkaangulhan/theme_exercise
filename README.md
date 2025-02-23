@@ -41,6 +41,7 @@ lib/ui/core/
 - **theme** folder contains theme datas of the app. These are text themes, button themes, card themes, etc. Themes are also differentiated into **dark** and **light** schemes.
 
 ## Shadows
+
 For this project, I created custom shadows for buttons, cards and different statuses. I implemented **ThemeExtension** on **AppShadowTheme**.
 The class defines an interface of fields that should be implemented:
 
