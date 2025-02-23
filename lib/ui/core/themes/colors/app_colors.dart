@@ -3,6 +3,7 @@
 // ignore_for_file: public_member_api_docs
 
 import 'package:flutter/material.dart';
+import 'package:theme_exercise/ui/core/themes/colors/dark_colors.dart';
 import 'package:theme_exercise/ui/core/themes/colors/light_colors.dart';
 
 /// This is the colors used in the app.
@@ -28,17 +29,26 @@ abstract class AppColors {
       );
 
   /// The dark color scheme for the app.
-  static ColorScheme get darkColorScheme => const ColorScheme.dark();
+  static ColorScheme get darkColorScheme => ColorScheme.dark(
+        primary: DarkColors.primary,
+        onPrimary: DarkColors.onPrimary,
+        secondary: DarkColors.secondary,
+        onSecondary: DarkColors.onSecondary,
+        surface: DarkColors.surface,
+        onSurface: DarkColors.onSurface,
+        error: DarkColors.error,
+        onError: DarkColors.onError,
+      );
 }
 
 class NeutralColors {
   NeutralColors._();
-  final Color black = const Color(0xFF151522);
-  final Color white = const Color(0xFFFFFFFF);
-  final Color grey1 = const Color(0xFF333333);
-  final Color grey2 = const Color(0xFF666666);
-  final Color grey3 = const Color(0xFF999999);
-  final Color grey4 = const Color(0xFFE0E0E0);
+  Color get black => const Color(0xFF151522);
+  Color get white => const Color(0xFFFFFFFF);
+  Color get grey1 => const Color(0xFF333333);
+  Color get grey2 => const Color(0xFF666666);
+  Color get grey3 => const Color(0xFF999999);
+  Color get grey4 => const Color(0xFFE0E0E0);
 }
 
 class PrimaryColors {

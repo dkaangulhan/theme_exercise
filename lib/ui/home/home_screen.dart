@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:theme_exercise/main.dart';
+import 'package:theme_exercise/ui/theme_switch/theme_switch.dart';
 
 const _padding = EdgeInsets.all(16);
 
 /// Home screen of the app.
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   /// Home screen of the app.
   const HomeScreen({super.key});
 
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,53 +22,62 @@ class HomeScreen extends StatelessWidget {
           padding: _padding,
           child: ListView(
             children: [
-              ElevatedButton(
-                onPressed: () {
+              const ThemeSwitch(),
+              const SizedBox(height: 16),
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.button);
                 },
-                child: const Text('Buttons'),
+                title: const Text('Buttons'),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () {
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.text);
                 },
-                child: const Text('Texts'),
+                title: const Text('Texts'),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () {
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.card);
                 },
-                child: const Text('Cards'),
+                title: const Text('Cards'),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () {
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.fab);
                 },
-                child: const Text('Fab'),
+                title: const Text('Fab'),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () {
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.textInput);
                 },
-                child: const Text('Text Input'),
+                title: const Text('Text Input'),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () {
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.component);
                 },
-                child: const Text('Component'),
+                title: const Text('Component'),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () {
+              ListTile(
+                onTap: () {
                   Navigator.of(context).pushNamed(Routes.appBar);
                 },
-                child: const Text('App Bar'),
+                title: const Text('App Bar'),
+              ),
+              const SizedBox(height: 16),
+              ListTile(
+                onTap: () {
+                  Navigator.of(context).pushNamed(Routes.shadows);
+                },
+                title: const Text('Shadows'),
               ),
             ],
           ),
