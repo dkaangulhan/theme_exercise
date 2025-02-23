@@ -40,6 +40,23 @@ lib/ui/core/
 - **dimens.dart** contains dimensions, **sizes**, **border**, **border radius** and etc. fields that are used in the app.
 - **theme** folder contains theme datas of the app. These are text themes, button themes, card themes, etc. Themes are also differentiated into **dark** and **light** schemes.
 
+## Shadows
+For this project, I created custom shadows for buttons, cards and different statuses. I implemented **ThemeExtension** on **AppShadowTheme**.
+The class defines an interface of fields that should be implemented:
+
+- button2dp
+- button4dp
+- button8dp
+- button12dp
+- card16dp
+- card20dp
+- card24dp
+- card28dp
+- focused
+- hover
+- success
+- error
+
 ## Screenshots
 
 ### App Bar
