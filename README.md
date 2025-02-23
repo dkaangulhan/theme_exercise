@@ -39,3 +39,50 @@ lib/ui/core/
 - **colors** folder contains app's colors with **dark** and **light** color schemes.
 - **dimens.dart** contains dimensions, **sizes**, **border**, **border radius** and etc. fields that are used in the app.
 - **theme** folder contains theme datas of the app. These are text themes, button themes, card themes, etc. Themes are also differentiated into **dark** and **light** schemes.
+
+## Screenshots
+
+### App Bar
+
+![App Bar Dark](./assets/screenshot/app_bar_dark.png)
+![App Bar Light](./assets/screenshot/app_bar_light.png)
+
+### Buttons
+
+![Button Dark](./assets/screenshot/button_dark.png)
+![Button Light](./assets/screenshot/button_light.png)
+
+### Cards
+
+![Card Dark](./assets/screenshot/card_dark.png)
+![Card Light](./assets/screenshot/card_light.png)
+
+### Components
+
+![Component Dark](./assets/screenshot/component_dark.png)
+![Component Light](./assets/screenshot/component_light.png)
+
+### Floating Action Button (FAB)
+
+![FAB Dark](./assets/screenshot/fab_dark.png)
+![FAB Light](./assets/screenshot/fab_light.png)
+
+### Home Screen
+
+![Home Dark](./assets/screenshot/home_dark.png)
+![Home Light](./assets/screenshot/home_light.png)
+
+### Shadows
+
+![Shadow Dark](./assets/screenshot/shadow_dark.png)
+![Shadow Light](./assets/screenshot/shadow_light.png)
+
+### Text
+
+![Text Dark](./assets/screenshot/text_dark.png)
+![Text Light](./assets/screenshot/text_light.png)
+
+### Text Inputs
+
+![Text Input Dark](./assets/screenshot/text_input_dark.png)
+![Text Input Light](./assets/screenshot/text_input_light.png)
