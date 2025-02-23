@@ -44,45 +44,28 @@ lib/ui/core/
 
 ### App Bar
 
-![App Bar Dark](./assets/screenshot/app_bar_dark.png)
-![App Bar Light](./assets/screenshot/app_bar_light.png)
+<p align="center">
+  <img src="./assets/screenshot/app_bar_dark.png" width="300">
+  <img src="./assets/screenshot/app_bar_light.png" width="300">
+</p>
 
 ### Buttons
 
-![Button Dark](./assets/screenshot/button_dark.png)
-![Button Light](./assets/screenshot/button_light.png)
+<p align="center">
+  <img src="./assets/screenshot/button_dark.png" width="300">
+  <img src="./assets/screenshot/button_light.png" width="300">
+</p>
 
 ### Cards
 
-![Card Dark](./assets/screenshot/card_dark.png)
-![Card Light](./assets/screenshot/card_light.png)
+<p align="center">
+  <img src="./assets/screenshot/card_dark.png" width="300">
+  <img src="./assets/screenshot/card_light.png" width="300">
+</p>
 
 ### Components
 
-![Component Dark](./assets/screenshot/component_dark.png)
-![Component Light](./assets/screenshot/component_light.png)
-
-### Floating Action Button (FAB)
-
-![FAB Dark](./assets/screenshot/fab_dark.png)
-![FAB Light](./assets/screenshot/fab_light.png)
-
-### Home Screen
-
-![Home Dark](./assets/screenshot/home_dark.png)
-![Home Light](./assets/screenshot/home_light.png)
-
-### Shadows
-
-![Shadow Dark](./assets/screenshot/shadow_dark.png)
-![Shadow Light](./assets/screenshot/shadow_light.png)
-
-### Text
-
-![Text Dark](./assets/screenshot/text_dark.png)
-![Text Light](./assets/screenshot/text_light.png)
-
-### Text Inputs
-
-![Text Input Dark](./assets/screenshot/text_input_dark.png)
-![Text Input Light](./assets/screenshot/text_input_light.png)
+<p align="center">
+  <img src="./assets/screenshot/component_dark.png" width="300">
+  <img src="./assets/screenshot/component_light.png" width="300">
+</p>
