@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:theme_exercise/ui/theme_switch/theme_switch.dart';
 
 const _padding = EdgeInsets.all(16);
 
@@ -16,6 +17,7 @@ class TextScreen extends StatelessWidget {
       body: ListView(
         padding: _padding,
         children: [
+          const ThemeSwitch(),
           Text(
             'Headline Large',
             style: Theme.of(context).textTheme.headlineLarge,

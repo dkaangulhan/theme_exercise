@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:theme_exercise/ui/theme_switch/theme_switch.dart';
 
 /// Text Input screen of the app.
 class TextInputScreen extends StatelessWidget {
@@ -16,6 +17,7 @@ class TextInputScreen extends StatelessWidget {
           padding: const EdgeInsets.all(16),
           child: ListView(
             children: [
+              const ThemeSwitch(),
               const TextField(
                 decoration: InputDecoration(
                   labelText: 'Text Field Label',

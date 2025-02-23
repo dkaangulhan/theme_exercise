@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:theme_exercise/ui/theme_switch/theme_switch.dart';
 
 const _padding = EdgeInsets.all(16);
 const _titleStyle = TextStyle(fontSize: 24, fontWeight: FontWeight.bold);
@@ -17,6 +18,7 @@ class ComponentScreen extends StatelessWidget {
       body: ListView(
         padding: _padding,
         children: const [
+          ThemeSwitch(),
           Text('Checkboxes', style: _titleStyle),
           _Checkboxes(),
           SizedBox(height: 16),

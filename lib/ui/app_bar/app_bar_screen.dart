@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:theme_exercise/ui/theme_switch/theme_switch.dart';
 
 /// App Bar screen
 class AppBarScreen extends StatelessWidget {
@@ -21,6 +22,7 @@ class AppBarScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: const Center(child: ThemeSwitch()),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:theme_exercise/ui/theme_switch/theme_switch.dart';
 
 /// Floating Action Button screen
 class FabScreen extends StatelessWidget {
@@ -15,6 +16,7 @@ class FabScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            ThemeSwitch(),
             Text(
               'This is the Floating Action Button screen',
             ),
